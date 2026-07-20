@@ -1,0 +1,2381 @@
+ 
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TextTowernaxi |  TextTowernaxi  Used Book Services</title>
+
+    <meta property="og:title" content="TextTowernaxi |  TextTowernaxi  Used Book Services" />
+    <meta property="og:image" content="posts/07_16_2026/Books-d65b0-1.jpg" />
+    
+
+    <meta property="og:description" content="About TextTowernaxi An introduction to our collection and approach TextTowernaxi is a used bookstore dedicated to preserving the value," />
+    <meta name="description" content="About TextTowernaxi An introduction to our collection and approach TextTowernaxi is a used bookstore dedicated to preserving the value," />
+     
+
+    <link rel="shortcut icon" href="logo-black.svg" type="image/x-icon" />
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Calistoga&display=swap" rel="stylesheet" />
+
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      html,
+      body {
+        height: 100%;
+      }
+
+      img,
+      picture,
+      video,
+      canvas,
+      svg {
+        display: block;
+        max-width: 100%;
+      }
+
+
+      input,
+      button,
+      textarea,
+      select {
+        font: inherit;
+      }
+
+      p,
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        overflow-wrap: break-word;
+      }
+
+      body {
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+        font-family: 'Lexend Deca', sans-serif !important;
+        direction: ltr;
+        font-size: 17px;
+        line-height: 1.4;
+      }
+
+      :root {
+        --container-sx: 100%;
+        --container-s: 540px;
+        --container-md: 720px;
+        --container-l: 960px;
+        --container-xl: 1140px;
+
+        --color-white: #fff;
+        --color-black: #000;
+
+        --color-background: #ffffff;
+        --color-text-primary: #000000;
+        --color-text-secondary: #999999;
+        --color-primary: rgb(177, 216, 183);
+        --color-primary-hover: #9ccfa8;
+        --color-surface: #f8f9fa;
+        --color-accent: #e9f5ef;
+        --color-gradient-bg: linear-gradient(to right, rgb(122, 94, 134) 0%, rgb(167, 94, 103) 51%, rgb(247, 123, 46) 100%);
+      }
+
+      .theme-1 {
+        --color-background: #fffef5;
+        --color-text-primary: #1b1b1b;
+        --color-text-secondary: #2a2a2a;
+        --color-primary: rgb(249, 171, 0);
+        --color-secondary: #e2683c;
+        --color-accent: #6f9553;
+        --color-surface: #e5ce60;
+
+        --color-cta-main: var(--color-primary);
+        --color-cta-main-hover: var(--color-secondary);
+        --color-cta-secondary: var(--color-secondary);
+        --color-cta-secondary-hover: #8c8c8c;
+
+        --color-gradient-bg: linear-gradient(
+          to right,
+          var(--color-accent) 0%,
+          var(--color-primary) 50%,
+          var(--color-secondary) 100%
+        );
+      }
+      .theme-2 {
+        --color-background: #f7fdf3;
+        --color-text-primary: #1f1f1f;
+        --color-text-secondary: #ffffff;
+        --color-primary: rgb(90, 158, 54);
+        --color-secondary: #357a99;
+        --color-accent: #3e5586;
+        --color-surface: #bcd696;
+
+        --color-cta-main: var(--color-primary);
+        --color-cta-main-hover: var(--color-secondary);
+        --color-cta-secondary: var(--color-secondary);
+        --color-cta-secondary-hover: var(--color-accent);
+
+        --color-gradient-bg: linear-gradient(
+          to right,
+          #3e5586 0%,
+          #5da8a0 33%,
+          #5a9e36 66%,
+          #71842c 100%
+        );
+      }
+      .theme-3 {
+        --color-background: #fce0d5;
+        --color-text-primary: #100102;
+        --color-text-secondary: #ffffff;
+        --color-primary: rgb(46, 188, 176);
+        --color-secondary: #559ca0;
+        --color-accent: #9b67a0;
+        --color-surface: #bdaeb5;
+
+        --color-cta-main: var(--color-primary);
+        --color-cta-main-hover: var(--color-secondary);
+        --color-cta-secondary: var(--color-secondary);
+        --color-cta-secondary-hover: var(--color-accent);
+
+        --color-gradient-bg: linear-gradient(
+          to right,
+          var(--color-surface) 0%,
+          var(--color-accent) 33%,
+          var(--color-secondary) 66%,
+          var(--color-primary) 100%
+        );
+      }
+      .theme-4 {
+        --color-background: #eff1e4;
+        --color-text-primary: #090606;
+        --color-text-secondary: #ffffff;
+        --color-primary: rgb(46, 189, 189);
+        --color-secondary: #537c8e;
+        --color-accent: #85583f;
+        --color-surface: #b8945f;
+
+        --color-cta-main: var(--color-primary);
+        --color-cta-main-hover: var(--color-secondary);
+        --color-cta-secondary: var(--color-secondary);
+        --color-cta-secondary-hover: var(--color-accent);
+
+        --color-gradient-bg: linear-gradient(
+          to right,
+          var(--color-surface) 0%,
+          var(--color-accent) 33%,
+          var(--color-secondary) 66%,
+          var(--color-primary) 100%
+        );
+      }
+      .theme-5 {
+        --color-background: #eff3e7;
+        --color-text-primary: #02060b;
+        --color-text-secondary: #ffffff;
+        --color-primary: rgb(111, 144, 96);
+        --color-secondary: #29663d;
+        --color-accent: #4b4756;
+        --color-surface: #c8bad8;
+
+        --color-cta-main: var(--color-primary);
+        --color-cta-main-hover: var(--color-secondary);
+        --color-cta-secondary: var(--color-secondary);
+        --color-cta-secondary-hover: var(--color-accent);
+
+        --color-gradient-bg: linear-gradient(
+          to right,
+          var(--color-surface) 0%,
+          var(--color-accent) 33%,
+          var(--color-secondary) 66%,
+          var(--color-primary) 100%
+        );
+      }
+      .btn-1 {
+        position: relative;
+        z-index: 1;
+        overflow: hidden;
+        border: unset;
+        border-radius: 15px;
+        box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
+        color: var(--color-text-main);
+        background: var(--color-surface);
+        transition: all ease-in-out 250ms;
+        cursor: pointer;
+        font-weight: 700;
+        font-size: 16px;
+        padding: 11px 23px;
+
+        &::before {
+          content: '';
+          position: absolute;
+          top: 0;
+          left: 0;
+          height: 100%;
+          width: 0;
+          border-radius: 15px;
+          background-color: var(--color-cta-main);
+          z-index: -1;
+          transition: all ease-in-out 250ms;
+          box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
+        }
+        &:hover {
+          color: var(--color-white);
+        }
+        &:hover::before {
+          width: 100%;
+        }
+      }
+      .btn-2 {
+        position: relative;
+        border: 2px solid var(--color-primary);
+        border-radius: 0.2em;
+        font-size: 20px;
+        background-color: transparent;
+        cursor: pointer;
+        overflow: hidden;
+        transition: 300ms cubic-bezier(0.83, 0, 0.17, 1);
+        padding: 11px 17px;
+
+        & span {
+          color: var(--color-primary);
+          position: relative;
+          z-index: 1;
+          transition: color 700ms cubic-bezier(0.83, 0, 0.17, 1);
+          font-weight: 700;
+        }
+
+        &::before,
+        &::after {
+          content: "";
+          position: absolute;
+          width: 150%;
+          aspect-ratio: 1/1;
+          border-radius: 50%;
+          background-color: var(--color-primary);
+          scale: 0;
+          translate: -50% -50%;
+          transition: 1000ms cubic-bezier(0.76, 0, 0.24, 1);
+        }
+
+        &::before {
+          top: 0;
+          left: 0;
+        }
+
+        &::after {
+          top: 100%;
+          left: 100%;
+        }
+
+        &:hover {
+          & span {
+            color:  var(--color-background);
+          }
+          &::before,
+          &::after {
+            scale: 1;
+          }
+        }
+
+        &:active {
+          scale: 0.98;
+          filter: brightness(0.9);
+        }
+      }
+      .btn-3 {
+        display: block;
+        border: 0px;
+        border-radius: 10px;
+        box-shadow: 0px 0px 14px -7px var(--color-text-main);
+        text-align: center;
+        text-transform: uppercase;
+        color: var(--color-white);
+        background-size: 200% auto;
+        background-image: linear-gradient(
+          45deg, var(--color-accent) 0%,
+          var(--color-surface) 51%,
+          var(--color-cta-secondary) 100%
+        );
+        transition: 0.5s;
+        cursor: pointer;
+        user-select: none;
+        touch-action: manipulation;
+        font-weight: 700;
+        padding: 11px 27px;
+
+        &:hover {
+          background-position: right center;
+          color: var(--color-text-primary);
+          box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.27);
+          text-decoration: none;
+        }
+
+        &:active {
+          transform: scale(0.95);
+        }
+      }
+      .btn-4 {
+        position: relative;
+        display: inline-block;
+        border: none;
+        box-shadow: 0 5px 15px var(--color-text-primary);
+        color: var(--color-text-alt);
+        font-family: "Segoe UI", sans-serif;
+        text-decoration:none;
+        background: linear-gradient(to bottom, var( --color-cta-main), var(--color-cta-secondary));
+        cursor: pointer;
+        animation: button-shimmer 2s infinite;
+        transition: 0.5s;
+        font-size: 20px;
+        padding: 11px 23px;
+        font-weight: 400;
+
+        &:hover {
+          background: linear-gradient(to bottom, var(--color-cta-secondary), var(--color-black));
+          animation: button-particles 1s ease-in-out infinite;
+          transform: translateY(-2px);
+          color:var(--color-text-secondary)
+        }
+        &:active {
+          transform: scale(0.95);
+          box-shadow: 0 2px 10px var(--color-shadow);
+        }
+
+        @keyframes button-shimmer {
+          0% {
+            background-position: left top;
+          }
+
+          100% {
+            background-position: right bottom;
+          }
+        }
+
+        @keyframes button-particles {
+          0% {
+            background-position: left top;
+          }
+
+          100% {
+            background-position: right bottom;
+          }
+        }
+      }
+      .btn-5 {
+        display: inline-block;
+        border: 2px solid var(--color-text-primary);
+        border-radius: 10px;
+
+        font-weight: bold;
+        text-align: center;
+        text-decoration: none;
+        color: var(--color-text-secondary, #fff);
+        cursor: pointer;
+
+        background-color: var(--color-cta-main);
+        box-shadow: 5px 5px 0px var(--color-text-primary);
+        transition: all 0.3s ease;
+
+        padding: 11px 23px;
+        font-size: 21px;
+
+        &:hover {
+          background-color: var(--color-background);
+          color: var(--color-cta-main);
+          border-color: var(--color-cta-main);
+          box-shadow: 5px 5px 0px var(--color-cta-main);
+        }
+
+        &:active {
+          background-color: var(--color-accent);
+          box-shadow: none;
+          transform: translateY(4px);
+        }
+      }
+
+      .container {
+        padding-inline: 15px;
+        margin-inline: auto;
+      }
+      @media screen and (min-width: 576px) {
+        .container {
+          max-width: var(--container-s);
+        }
+      }
+      @media screen and (min-width: 768px) {
+        .container {
+          max-width: var(--container-md);
+        }
+      }
+      @media screen and (min-width: 992px) {
+        .container {
+          max-width: var(--container-l);
+        }
+      }
+      @media screen and (min-width: 1200px) {
+        .container {
+          max-width: var(--container-xl);
+        }
+      }
+
+      .section-spaced {
+        background: var( --color-background);
+        padding: 41px 0;
+      }
+      @media screen and (min-width: 1200px) {
+        .section-spaced {
+          padding: 84px 0;
+        }
+      }
+      .bottom-spaced {
+        padding-bottom: calc(41px *2);
+      }
+      @media screen and (min-width: 1200px) {
+        .bottom-spaced  {
+          padding-bottom: calc(84px * 2);
+        }
+      }
+
+      .section-title {
+        color: var(--color-primary);
+        text-transform: uppercase;
+        font-weight: 500;
+        line-height: 1.2;
+        text-shadow: 0 0 1px var(--color-black);
+        font-size: 43px;
+        margin-bottom: 41px;
+      }
+      .section-subtitle {
+        color: var(--color-accent);
+        text-transform: uppercase;
+        margin: 0;
+        font-size: 12px;
+        letter-spacing: 0.1em;
+        font-weight: bold;
+        text-shadow: 0 0 1px var(--color-black);
+        font-size: 14px;
+      }
+      .centered-text {
+        text-align: center;
+      }
+
+
+      .main-header {
+        background: var(--color-background);
+
+        .header-gradient-bar {
+          background: var(--color-gradient-bg);
+          padding: 11px 0;
+
+          .contacts-wrapper {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .contact-link {
+              display: none;
+              color: var(--color-text-primary);
+              text-transform: uppercase;
+              text-decoration: none;
+              transition: all ease-in-out 0.2s;
+              font-size: 16px;
+            }
+            .contacts-icon {
+              width: 20px;
+              height: 20px;
+              transition: all ease-in-out 0.2s;
+            }
+          }
+
+          .phone-wrapper, .mail-wrapper {
+            display: flex;
+            align-items: center;
+            text-decoration: none;
+            text-transform: none;
+            gap:  11px;
+
+            &:hover {
+              .contacts-icon {
+                fill: var(--color-background);
+              }
+              .contact-link {
+                color: var(--color-background);
+              }
+            }
+          }
+        }
+
+        .header-content-wrapper {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          padding: 17px 0;
+
+          .logo-wrapper {
+            width: 60%;
+            display: flex;
+            align-items: center;
+
+            .header-logo {
+              max-height: 40px;
+            }
+
+            .header-title {
+              text-decoration: none;
+              color: var(--color-text-main);
+              font-size: 14px;
+              padding-inline-start: 5px;
+
+              &:hover {
+                color: var(--color-cta-main);
+              }
+            }
+          }
+          .burger-menu {
+            position: relative;
+            width: 36px;
+            height: 28px;
+            display: block;
+            transition: all 0.3s ease-out;
+            cursor: pointer;
+
+
+            .bar {
+              transition: all 0.3s ease-out;
+              height: 4px;
+              width: 100%;
+              display: block;
+              background-color: var(--color-black);
+
+              &:nth-of-type(2) {
+                margin: 8px 0;
+              }
+            }
+          }
+          .burger-menu--closed {
+            transition-delay: 0.3s;
+
+            .bar:nth-of-type(2) {
+              width: 28px;
+              transition-property: margin, height, width;
+              transition-delay: 0.3s, 0.3s, 0s;
+            }
+
+            .bar:nth-of-type(3) {
+              width: 32px;
+            }
+
+
+            &:hover {
+              .bar:nth-of-type(2) {
+                width: 100%;
+              }
+
+              .bar:nth-of-type(3) {
+                width: 100%;
+              }
+            }
+          }
+
+          .burger-menu--opened {
+            padding-top: 12px;
+
+            .bar:nth-of-type(1) {
+              transform: rotate(45deg);
+              transition-delay: 0.3s;
+              height: 4px;
+            }
+
+            .bar:nth-of-type(2) {
+              opacity: 0;
+              height: 0;
+              margin: -4px 0;
+            }
+
+            .bar:nth-of-type(3) {
+              transform: rotate(-45deg);
+              transition-delay: 0.3s;
+              height: 4px;
+            }
+          }
+
+          .navigation-wrapper {
+            display: none;
+          }
+        }
+
+        .menu-navigation {
+          direction: initial;
+          position: fixed;
+          z-index: 10;
+          display: block;
+          right: -100%;
+          top: 0;
+          width: 80%;
+          height: 100%;
+          transition: all ease-in-out 0.2s;
+          background-color: var(--color-background);
+
+          .mobile-menu-overlay {
+            z-index: 10;
+            position: fixed;
+            width: 20%;
+            top: 0;
+            height: 100%;
+            right: -100%;
+            background-color: rgba(0, 0, 0, 0.48);
+          }
+
+          &.active {
+            right: 0;
+
+            .mobile-menu-overlay {
+              inset-inline-start: 0;
+            }
+          }
+
+
+          .mobile-navigation-container {
+            min-height: 80%;
+          }
+
+          .mobile-navigation-wrapper {
+            display: flex;
+            flex-direction: column;
+            height: 95%;
+            justify-content: flex-end;
+          }
+
+          .close-icon-wrapper {
+            display: flex;
+            justify-content: flex-end;
+            margin-top: 23px;
+
+
+            .close-icon {
+              fill: var(--color-primary);
+              cursor: pointer;
+            }
+          }
+
+          .nav-list {
+            padding: 0;
+            list-style-type: none;
+            margin: auto 0;
+
+            .nav-list-item {
+              margin-top: 17px;
+
+              &:first-child {
+                margin-top: 0;
+              }
+            }
+
+            .nav-list-link {
+              text-decoration: none;
+              color: var(--color-text-main);
+              cursor: pointer;
+              font-size: 29px;
+
+              &:hover {
+                color: var(--color-cta-main);
+              }
+            }
+          }
+
+          .header-contact-list {
+            margin: 0;
+            padding: 0;
+            list-style-type: none;
+
+            .header-contact-item {
+              margin-top: 17px;
+
+              &:first-child {
+                margin-top: 0;
+              }
+            }
+
+            .header-contact-link {
+              display: none;
+              text-decoration: none;
+              color: var(--color-cta-main);
+              cursor: pointer;
+              color: var(--color-text-main);
+              transition: all ease-in-out 0.2s;
+              font-size: 29px;
+              &:hover {
+                text-shadow:2px 2px 15px var(--color-text-main);
+              }
+            }
+          }
+        }
+
+        &.fixed-header {
+          position: fixed;
+          top: 0;
+          z-index: 20;
+          width: 100%;
+          box-shadow: 1px 1px 2px var(--color-black);
+
+          .header-gradient-bar {
+            display: none;
+          }
+        }
+      }
+      @media screen and (min-width: 768px) {
+        .main-header {
+          .header-gradient-bar {
+            .contacts-wrapper {
+              .contact-link {
+                display: inline-flex;
+              }
+            }
+          }
+        }
+      }
+      @media screen and (min-width: 992px) {
+        .main-header {
+          .header-content-wrapper {
+            .burger-menu {
+              display: none;
+            }
+
+            .logo-wrapper {
+              width: 30%;
+            }
+
+            .navigation-wrapper {
+              display: flex;
+
+              .nav-list {
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+                padding: 0;
+                list-style-type: none;
+                gap: 23px;
+
+                .nav-list-link {
+                  text-decoration: none;
+                  text-transform: uppercase;
+                  color: var(--color-text-primary);
+                  transition: all ease-in-out 0.2s;
+
+                  &:hover {
+                    color: var(--color-primary);
+                  }
+                }
+              }
+            }
+          }
+          .menu-navigation {
+            display: none;
+          }
+        }
+      }
+
+
+      .block-reasons {
+        background-color: var(--color-accent);
+
+        .reasons-list {
+          list-style-type: none;
+          padding: 0;
+          margin: 0;
+        }
+
+        .reason-item {
+          position: relative;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          border-radius: 20px;
+          box-shadow: 0px 0px 7px var(--color-background);
+          background: var(--color-surface);
+          margin-top: 36px;
+          padding: 100px 11px 11px;
+
+          &:first-child {
+            margin-top: 0;
+          }
+
+          .item-header {
+            margin-bottom: 16px;
+
+            .number-wrapper {
+              font-size: 120px;
+              position: absolute;
+              color: var(--color-background);
+              filter: opacity(0.4);
+              font-weight: 800;
+              text-shadow: 5px 5px 1px var(--color-cta-main);
+              inset-inline-start: 0;
+              top: 5%;
+              z-index: 1;
+            }
+
+            .text {
+              position: relative;
+              padding-top: 0;
+              z-index: 2;
+              color: var(--color-text-secondary);
+              text-shadow: 1px 1px 1px var(--color-text-primary);
+            }
+          }
+
+          .item-img {
+            border-radius: 10px;
+          }
+        }
+      }
+      @media screen and (min-width:  576px) {
+        .block-reasons {
+          .reasons-list {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            gap: 17px;
+          }
+
+          .reason-item {
+            margin-top: 0;
+            flex: 1 0 calc(45% - 17px);
+          }
+        }
+      }
+      @media screen and (min-width: 768px) {
+        .block-reasons {
+          .reasons-list {
+            gap: 27px;
+          }
+
+          .reason-item {
+            margin-top: 0;
+            flex: 1 0 calc(33.333% - 27px);
+          }
+        }
+      }
+
+      .block-hero {
+        position: relative;
+        display: flex;
+        min-height: calc(100vh - 41px);
+        padding: 55px 17px;
+        background: linear-gradient(rgba(255,255,255,0.1), rgba(255,255,255,0.4)), url("landscape/snapshot_header_6a5afbe5009056.73712225.jpg");
+        background-size: cover;
+
+
+        .overlay {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          background-color: rgba(0, 0, 0, 0.48);
+          pointer-events: none;
+        }
+        .text-wrapper {
+          position: relative;
+          z-index: 1;
+          height: 100%;
+          display: flex;
+          align-items: center;
+          flex-direction: column;
+          justify-content: center;
+
+          .main-title {
+            text-shadow: 1px 2px var(--color-black);
+            color: var(--color-cta-main);
+          }
+
+          .btn-order-form, .btn-order {
+            text-decoration: none;
+          }
+        }
+      }
+
+      .block-about-us {
+        .content-row {
+          display: flex;
+          justify-content: space-between;
+          flex-direction: column-reverse;
+
+
+          .column {
+            width: 100%;
+            margin-top: 51px;
+          }
+          .decor-wrapper {
+            width: 100%;
+            box-shadow: 1px 1px 35px var(--color-accent);
+
+            .img-about {
+              object-fit: cover;
+              height:  301px;
+              width: 100%;
+            }
+          }
+          .info-wrapper {
+            width: 100%;
+
+            .about-description {
+              line-height: 1.5;
+              font-size: 14px;
+            }
+          }
+        }
+      }
+      @media screen and (min-width: 992px) {
+        .block-about-us {
+          .content-row {
+            margin-top: 0;
+            flex-direction: row-reverse;
+
+
+            .column {
+              width: 45%;
+              margin-top: 0;
+            }
+          }
+        }
+      }
+
+      .block-benefits {
+        .grid-item {
+          display: flex;
+          position: relative;
+          justify-content: flex-end;
+          margin-top: 40px;
+
+          &:first-child {
+            margin-top: 0;
+          }
+
+          .benefit-number-wrapper {
+            position: absolute;
+            transform: rotate(-90deg) translateY(-20%);
+            top: 0;
+            inset-inline-start: 0;
+
+            .benefit-number {
+              display: flex;
+              align-items: center;
+              font-size: 40px;
+              font-weight: 800;
+              color: var(--color-primary);
+              text-shadow: 1px 1px 5px var(--color-accent);
+
+              &::before {
+                content: '';
+                display: inline-block;
+                height: 2px;
+                width: 30px;
+                background: var(--color-primary);
+                margin-inline-end: 10px;
+              }
+            }
+          }
+          .benefit-text {
+            width: 75%;
+            padding-inline-start: 27px;
+          }
+        }
+      }
+      @media screen and (min-width: 576px) {
+        .block-benefits {
+          .benefit-grid {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            gap: 23px;
+          }
+
+          .grid-item {
+            flex: 1 0 calc(45% - 23px);
+            margin-top: 0;
+
+            &:nth-child(2n) {
+              transform: translateY(41px);
+            }
+          }
+        }
+      }
+      @media screen and (min-width: 992px) {
+        .block-benefits {
+          .benefit-grid {
+            gap: 55px;
+          }
+
+          .grid-item {
+            flex: 1 0 calc(45% - 55px);
+
+            &:nth-child(2n) {
+              transform: translateY(41px);
+            }
+          }
+        }
+      }
+      @media screen and (min-width: 1200px) {
+        .block-benefits {
+          .benefit-grid {
+            gap: calc(55px * 2);
+          }
+
+          .grid-item  {
+            justify-content: center;
+
+            .benefit-number-wrapper {
+              transform: rotate(-90deg) translate(0%, 50%)
+            }
+            .benefit-text {
+              width: 55%;
+            }
+          }
+        }
+      }
+
+
+
+      .block-product {
+        position: relative;
+        background-image: url(uploads/07_2026/fade-overlay_NF30.png);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+
+
+        .content-row {
+          position: relative;
+          z-index: 1;
+          display: flex;
+          flex-direction: column;
+
+          .price-wrapper {
+            margin: 17px 0;
+
+            .price {
+              margin: 0;
+              font-size: 16px;
+            }
+          }
+
+          .image-wrapper .product-image {
+            border-radius: 20px;
+            object-fit: contain;
+            box-shadow: 2px 2px 6px var(--color-text-primary);
+          }
+
+          .col-title {
+            .divider {
+              margin: 20px 0;
+            }
+
+            .price-wrapper, .image-wrapper {
+              display: none;
+            }
+          }
+
+          .col-content {
+            display: flex;
+            flex-direction: column;
+
+            .content-img-wrapper {
+              display: flex;
+              flex-direction: column;
+            }
+          }
+        }
+      }
+      @media screen and (min-width: 768px) {
+        .block-product {
+          .content-row {
+            flex-direction: row;
+
+            .sticky-element-wrapper {
+              position: sticky;
+              top:20%;
+              display: block;
+            }
+
+            .col-title {
+              width: 50%;
+              padding: 0px 17px;
+
+              .section-title {
+                margin-top: 1rem;
+              }
+
+              .price-wrapper, .image-wrapper {
+                display: block;
+              }
+              .price-wrapper .price {
+                font-size: 21px;
+              }
+            }
+
+            .col-content {
+              display: flex;
+              width: 50%;
+              padding: 0px 17px;
+              flex-direction: column;
+
+              .content-img-wrapper {
+                display: none;
+              }
+            }
+          }
+        }
+      }
+
+
+      .block-tariff {
+        background: linear-gradient(rgba(255,255,255,0.1), rgba(255,255,255,0.4)), url("landscape/view_header_6a5afbe500d390.77317891.jpg");
+        background-size: cover;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+
+        .tariff-card {
+          background: var(--color-background);
+          display: flex;
+          flex-direction: column;
+          box-shadow: 0px 0px  11px #000;
+          padding: 17px;
+          border-radius: 11px;
+          margin-top: 36px;
+
+          &:first-child {
+            margin-top: 0;
+          }
+
+          .card-header {
+            margin-bottom: 23px;
+          }
+
+          .tariff-name {
+            margin: 0;
+            text-align: center;
+            margin-bottom: 11px;
+            font-size: 22px;
+            color: var(--color-text-primary);
+          }
+
+          .tariff-price {
+            margin-top: 0;
+            text-align: center;
+            font-size: 16px;
+            color: var(--color-surface);
+
+            .colored {
+              font-size: 44px;
+              color: var(--color-primary);
+            }
+          }
+
+          .services-list {
+            margin: 0;
+            padding: 0;
+            list-style-type: none;
+          }
+
+          .service-item {
+            position: relative;
+            padding-left: 16px;
+            position: relative;
+            padding-left: 35px;
+            margin-top: 15px;
+
+            &:first-child {
+              margin-top: 0;
+            }
+
+
+            &::before {
+              content: "✓";
+              color: var(--color-surface);
+              left: 0px;
+              font-size: 20px;
+              top: -0.3rem;
+              position: absolute;
+            }
+          }
+
+
+          .btn-order {
+            display: block;
+            text-decoration: none;
+            margin-top: 36px;
+          }
+        }
+      }
+      @media screen and (min-width: 768px) {
+        .block-tariff {
+          display: flex;
+          flex-direction: column;
+
+          .tariff-wrapper {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            gap: 20px;
+          }
+
+          .tariff-card  {
+            flex: 1 0 calc(50% - 20px);
+            margin-top: 0;
+
+            .services-wrapper {
+              height: 100%;
+              display: flex;
+              flex-direction: column;
+              justify-content: space-between;
+            }
+          }
+        }
+      }
+      @media screen and (min-width: 992px) {
+        .block-tariff {
+          .tariff-wrapper {
+            gap: 5px;
+          }
+          .tariff-card  {
+            flex: 1 0 calc(33.333% - 5px);
+            transform: scale(0.8);
+
+            &.scaled {
+              transform: scale(1);
+            }
+          }
+        }
+      }
+
+
+      .block-questions {
+        background: var(--color-accent);
+
+        .section-title {
+          font-size: 37px;
+        }
+
+        .columns-container {
+          display: flex;
+          flex-direction: column;
+          max-width: 1200px;
+          margin: 0 auto;
+          padding: 16px;
+          gap: 20px;
+
+
+          .column {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            flex: 1;
+            gap: 20px;
+          }
+
+          .accordion-item {
+            border-radius: 4px;
+            overflow: hidden;
+            border: 1px solid;
+            position: relative;
+            background: var(--color-surface);
+
+            &:before {
+              content: '';
+              position: absolute;
+              top: 0;
+              right: 0;
+              bottom: 0;
+              left: 0;
+              background: var(--color-gradient-bg);
+              opacity: 0;
+              transition: opacity 0.5s ease, background-position 3s ease;
+              z-index: 0;
+              background-size: 200% 200%;
+              background-position: 0% 50%;
+            }
+
+            &.active {
+              color: var(--color-text-secondary);
+              box-shadow: 0px 0px 50px var(--color-surface);
+              background: none;
+
+              &:before {
+                opacity: 1;
+                animation: accordionGradientMove 2s ease-in-out forwards;
+              }
+
+              .accordion-header {
+                border-bottom: 1px solid var(--color-text-secondary);
+              }
+            }
+          }
+
+          .accordion-header {
+            position: relative;
+            padding: 11px;
+            cursor: pointer;
+            width: 100%;
+          }
+
+          .accordion-content {
+            position: relative;
+            padding: 0 11px;
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.5s ease-out;
+          }
+
+          @keyframes accordionGradientMove {
+            0% {
+              background: var(--color-gradient-bg);
+              background-position: 0% 50%;
+              background-size: 200% 200%;
+            }
+            100% {
+              background: var(--color-gradient-bg);
+              background-position: 100% 50%;
+              background-size: 100% 100%;
+            }
+          }
+        }
+      }
+      @media screen and (min-width: 768px) {
+        .block-questions {
+          .section-title {
+            font-size: 43px;
+          }
+
+          .columns-container {
+            flex-direction: row;
+          }
+        }
+
+      }
+
+      .block-testimonials {
+        .slider-container {
+          position: relative;
+          overflow: hidden;
+
+          &.contained {
+            max-width: 1000px;
+          }
+        }
+        .slider-track {
+          display: flex;
+          gap: 50px;
+          transition: transform 0.4s ease-in-out;
+        }
+        .card {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          filter: contrast(1) drop-shadow(0px 0px 6px var(--color-text-primary));
+          flex-direction: column;
+          padding: 17px;
+
+          &.card-reversed {
+            flex-direction: column-reverse;
+          }
+
+          .card-header {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+          }
+
+          .testimonial-avatar {
+            width: 60px;
+            border-radius: 50%;
+          }
+
+          .name {
+            text-transform: uppercase;
+            font-size: 20px;
+          }
+
+          .comment {
+            display: flex;
+            align-items: center;
+            height: 100%;
+            font-style: italic;
+            color: var(--color-white);
+            text-shadow: 1px 1px 1px var(--color-black);
+            background: var(--color-gradient-bg);
+            font-size: 16px;
+            padding: 27px;
+          }
+        }
+
+
+        .slider-control-wrapper {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+
+          &.dots {
+            text-align: center;
+            margin-top: 11px;
+          }
+
+          .dot {
+            display: inline-block;
+            height: 10px;
+            width: 10px;
+            background-color: var(--color-accent);
+            border-radius: 50%;
+            margin: 0 5px;
+            cursor: pointer;
+            transition: all ease-in-out 0.3s;
+          }
+
+          .dot.active {
+            width: 30px;
+            border-radius: 100px;
+            background-color: var(--color-cta-main);
+          }
+        }
+      }
+
+      .block-feedback {
+        background-image: url(uploads/07_2026/fade-overlay_NF31.png);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+
+        .section-title {
+          margin-top: 0;
+        }
+
+        .content-wrapper {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-direction: column;
+        }
+
+        .map-row {
+          width: 100%;
+        }
+        .contact-row {
+          display: flex;
+          width: 100%;
+          gap: 36px;
+          padding: 36px 0;
+          flex-direction: column;
+
+          &:first-child {
+            margin-bottom: column;
+          }
+          .contact-form {
+            display: flex;
+            flex-direction: column;
+
+
+            & > *:not(:has(+ label)) {
+              margin-top: 20px;
+            }
+
+            & > label {
+              margin-top: 20px;
+            }
+
+            & > *:first-child {
+              margin-top: 0;
+            }
+
+            & > label:first-child,
+            & > *:not(:has(+ label)):first-child {
+              margin-top: 0;
+            }
+
+
+
+            & .input-field_element--control[type="text"],
+            & .input-field_element--control[type='number'],
+            & .textarea-field_element--control[type="text"],
+            & .input-field_element--control[type='tel'],
+            & .input-field_element--control[type='email'] {
+              border: none;
+              border-radius: 10px;
+              padding: 0.75rem 1rem;
+              background: var(--color-white);
+              box-shadow: 5px 5px 5px var(--color-accent);
+            }
+
+            & .textarea-field_element--control {
+              width: 100%;
+              resize: none;
+            }
+
+            .input-field_element--control:focus-visible,
+            .textarea-field_element--control {
+              border: none;
+              outline: none;
+            }
+
+            .form-l09-check-label {
+              font-size: 0.9rem;
+
+              a {
+                color: var(--color-text-primary);
+              }
+            }
+            & > * + * {
+              margin-top: 5px;
+            }
+          }
+
+          .contacts-wrapper {
+            background-color: var(--color-accent);
+            box-shadow: 0px 0px 20px var(--color-secondary);
+            padding: 16px;
+          }
+          .contact-title {
+            color: var(--color-text-secondary);
+            text-shadow: var(--color-text-primary);
+            font-size: 21px;
+          }
+
+          .contact-list {
+            padding: 0;
+            list-style-type: none;
+            padding: 16px;
+
+            .contact-list-item {
+              display: flex;
+              align-items: center;
+              margin-top:  17px;
+
+              &:first-child {
+                margin-top: 0;
+              }
+            }
+            .contact-icon {
+              stroke: var(--color-text-secondary);
+              fill: var(--color-text-secondary);
+              width: 30px;
+              min-width: 30px;
+              aspect-ratio: 1/1;
+              margin-inline-end: 20px;
+            }
+            .item-text, .contact-link {
+              color: var(--color-text-secondary);
+              text-decoration: none;
+              text-transform: uppercase;
+              white-space: normal;
+              word-break: break-all;
+              font-size: 14px;
+            }
+          }
+        }
+      }
+      @media screen and (min-width: 768px) {
+        .block-feedback{
+          .contact-row {
+            display: flex;
+            width: 100%;
+            justify-content: space-between;
+            align-items: flex-start;
+            flex-direction:  row;
+
+
+            .form-wrapper, .contacts-wrapper  {
+              flex: 1 0 40%;
+            }
+          }
+        }
+      }
+
+      .footer-main {
+        background: var(--color-gradient-bg);
+
+        .row-info {
+          display: flex;
+          flex-direction: column;
+
+
+          .col-title {
+            color: var(--color-text-secondary);
+            text-transform: uppercase;
+            font-size: 21px;
+            margin-bottom: 23px;
+          }
+
+          .col-info-about, .col-info-nav, .col-policy {
+            padding: 5px 0;
+          }
+
+          .nav-list, .policy-list {
+            list-style-type: none;
+            padding: 0;
+          }
+          .nav-list-item, .policy-list-item {
+            margin-top: 11px;
+
+            &:first-child {
+              margin-top: 0;
+            }
+          }
+          .nav-list-link, .policy-link {
+            color: var(--color-text-primary);
+            text-decoration: none;
+            transition: all ease-in-out 0.2s;
+
+            &:hover {
+              color: var(--color-text-secondary);
+            }
+          }
+        }
+        .divider {
+          height: 2px;
+          border: none;
+          background-color: var(--color-text-secondary);
+          margin: 41px 0;
+        }
+        .row-copyright {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          flex-direction: row;
+
+          .footer-logo-wrapper {
+            display: block;
+            width: auto;
+            height: 55px;
+            min-width: 54px;
+
+            .footer-logo {
+              width: 100%;
+              height: 100%;
+              object-fit: contain;
+            }
+          }
+
+          .copyright-text {
+            color: var(--color-text-primary);
+          }
+        }
+      }
+      @media screen and (min-width: 768px) {
+        .footer-main {
+          .row-info {
+            flex-direction: row;
+            gap:41px;
+
+
+            .col-info-about, .col-info-nav, .col-policy {
+              flex: 1 0 33.333%;
+              padding: 0 5px;
+            }
+            .col-info-nav {
+              flex: 1 1 33.333%;
+            }
+          }
+        }
+      }
+    </style>
+    
+  </head>
+  <body>
+    
+    <header class="main-header theme-5">
+      
+      <div class="container">
+        <div class="header-content-wrapper">
+          <div class="logo-wrapper">
+            <img src="logo-black.svg" alt="" class="catalog--styleno header-logo" />
+            <a href="./" class="header-title">TextTowernaxi</a>
+          </div>
+          <div class="burger-menu burger-menu--closed">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+          </div>
+          <nav class="navigation-wrapper">
+            <ul class="nav-list">
+              <li class="nav-list-item">
+                <a href="./#aboutus" class="nav-list-link"> Home </a>
+              </li>
+              <li class="nav-list-item">
+                <a href="./#aboutus" class="nav-list-link"> About us </a>
+              </li>
+              <li class="nav-list-item">
+                <a href="./#benefits" class="nav-list-link">
+                  Our Advantages
+                </a>
+              </li>
+                
+            </ul>
+          </nav>
+        </div>
+      </div>
+
+      <article class="menu-navigation">
+        <div class="mobile-menu-overlay"></div>
+        <div class="container mobile-navigation-container">
+          <div class="close-icon-wrapper">
+            <svg
+              class="close-icon"
+              width="64px"
+              height="64px"
+              viewBox="0 0 32 32"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+              <g
+                id="SVGRepo_tracerCarrier"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              ></g>
+              <g id="SVGRepo_iconCarrier">
+                <path
+                  d="M18.8,16l5.5-5.5c0.8-0.8,0.8-2,0-2.8l0,0C24,7.3,23.5,7,23,7c-0.5,0-1,0.2-1.4,0.6L16,13.2l-5.5-5.5 c-0.8-0.8-2.1-0.8-2.8,0C7.3,8,7,8.5,7,9.1s0.2,1,0.6,1.4l5.5,5.5l-5.5,5.5C7.3,21.9,7,22.4,7,23c0,0.5,0.2,1,0.6,1.4 C8,24.8,8.5,25,9,25c0.5,0,1-0.2,1.4-0.6l5.5-5.5l5.5,5.5c0.8,0.8,2.1,0.8,2.8,0c0.8-0.8,0.8-2.1,0-2.8L18.8,16z"
+                ></path>
+              </g>
+            </svg>
+          </div>
+          <nav class="mobile-navigation-wrapper">
+            <ul class="nav-list">
+              <li class="nav-list-item">
+                <a href="./" class="nav-list-link">Home</a>
+              </li>
+              <li class="nav-list-item">
+                <a href="./#aboutus" class="nav-list-link"> About us </a>
+              </li>
+              <li class="nav-list-item">
+                <a href="./#benefits" class="nav-list-link">
+                  Our Advantages
+                </a>
+              </li>
+                
+            </ul>
+          </nav>
+        </div>
+      </article>
+    </header>
+    <main class="theme-5">
+      <section class="block-hero section-spaced">
+        <div class="overlay"></div>
+        <div class="container">
+          <div class="text-wrapper centered-text">
+            <h1 class="main-title">Welcome to TextTowernaxi, your trusted source for quality used and collectible books. Whether you're a reader, collector, or researcher, explore our carefully curated selections and take advantage of our expert services tailored to meet all your book-related needs.</h1>
+            <br />
+             
+          </div>
+        </div>
+      </section>
+      
+
+      <section class="block-reasons section-spaced">
+        <div class="container">
+          <h3 class="section-title centered-text">Several factors may explain your interest in our site:</h3>
+          <ul class="reasons-list">
+            <li class="reason-item">
+              <div class="item-header">
+                <span class="number-wrapper">01</span>
+                <p class="text">Looking for rare or collectible books to add to your collection.</p>
+              </div>
+              <img src="landscape/snapshot_gallery_6a5afbe500e323.82641526.jpg" alt="" class="item-img" />
+            </li>
+            <li class="reason-item">
+              <div class="item-header">
+                <span class="number-wrapper">02</span>
+                <p class="text">Seeking expert advice on the value and condition of vintage books.</p>
+              </div>
+              <img src="landscape/scene_gallery_6a5afbe500e445.92168412.jpg" alt="" class="item-img" />
+            </li>
+            <li class="reason-item">
+              <div class="item-header">
+                <span class="number-wrapper">03</span>
+                <p class="text">Interested in buying, selling, or exchanging used books with a trusted service.</p>
+              </div>
+              <img src="landscape/drawing_gallery_6a5afbe500e494.72953445.jpg" alt="" class="item-img" />
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="aboutus" class="block-about-us section-spaced">
+        <div class="container">
+          <div class="content-row">
+            <div class="column decor-wrapper">
+              <img src="landscape/snapshot_gallery_6a5afbe500e323.82641526.jpg" alt="" class="img-about" />
+            </div>
+            <div class="column info-wrapper">
+              <h3 class="section-title">About us</h3>
+              <p class="about-description">Constantly researching new research and trends, we never miss an opportunity to integrate cutting-edge technologies and methodologies into our projects. This allows us not only to effectively solve current problems, but also to predict future challenges, preparing for them in advance. We value initiative, a creative approach to solving problems and a willingness to see prospects where they are not obvious at first glance.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section
+        id="benefits"
+        class="block-benefits section-spaced bottom-spaced"
+      >
+        <div class="container">
+          <h3 class="section-title centered-text">Our Advantages</h3>
+          <div class="content-wrapper">
+            <div class="benefit-grid">
+              <div class="grid-item">
+                <div class="benefit-number-wrapper">
+                  <span class="benefit-number">01</span>
+                </div>
+                <p class="benefit-text">Expert Assistance Our knowledgeable consultants provide personalized support for book selection, appraisal, and rare book searches to meet your specific needs.</p>
+              </div>
+              <div class="grid-item">
+                <div class="benefit-number-wrapper">
+                  <span class="benefit-number">02</span>
+                </div>
+                <p class="benefit-text">Comprehensive Collection We offer a wide range of genres and historical periods, carefully organized to help you find exactly what you are looking for.</p>
+              </div>
+              <div class="grid-item">
+                <div class="benefit-number-wrapper">
+                  <span class="benefit-number">03</span>
+                </div>
+                <p class="benefit-text">Accurate Cataloging Each book is cataloged with detailed bibliographic information to ensure transparency and reliable data for collectors and researchers.</p>
+              </div>
+              <div class="grid-item">
+                <div class="benefit-number-wrapper">
+                  <span class="benefit-number">04</span>
+                </div>
+                <p class="benefit-text">Responsible Preservation We prioritize the careful handling and preservation of all books to maintain their condition and value over time.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="product" class="block-product section-spaced">
+        <div class="container">
+          <div class="content-row">
+            <div class="col-title">
+              <div class="sticky-element-wrapper">
+                <h3 class="section-title"> TextTowernaxi  Used Book Services</h3>
+                <div class="divider">
+                  <hr />
+                </div>
+                <div class="additional-info-wrapper">
+                   
+                  <div class="image-wrapper">
+                    <img
+                      src="posts/07_16_2026/Books-d65b0-1.jpg"
+                      class="product-image"
+                      alt=" TextTowernaxi  Used Book Services"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-content">
+              <div class="content-text"><p><strong>About  TextTowernaxi </strong><br><em>An introduction to our collection and approach</em><span></span></p>
+<p> TextTowernaxi  is a used bookstore dedicated to preserving the value, accessibility, and continued circulation of books across many subjects and periods. The bookstore focuses on providing carefully reviewed pre-owned publications while supporting readers, collectors, researchers, and anyone interested in extending the life of printed materials. Every volume entering the collection is inspected for completeness, physical condition, and readability before becoming available for future owners. The bookstore includes both common editions for everyday reading and more distinctive publications sought for historical or bibliographic interest. Through organized cataloging, careful storage, and detailed record keeping,  TextTowernaxi  maintains a collection that reflects a broad range of literary, educational, artistic, and scientific interests. The objective is to create an environment where books remain useful long after their first ownership, contributing to sustainable reading practices and the preservation of printed knowledge. Every interaction is guided by careful documentation, transparent information, and respect for the history and condition of each individual volume.</p>
+<p><strong>Our Services</strong><br><em>Comprehensive support for book enthusiasts</em></p>
+<p> TextTowernaxi  provides several specialized services related to the circulation and preservation of used books. The bookstore purchases pre-owned books after evaluating their physical condition, publication details, and overall suitability for the collection. Selling services include organized shelves featuring literature, academic works, children's books, reference publications, illustrated editions, and specialized subjects. A structured book exchange service allows individuals to replace previously owned books with different titles according to established exchange guidelines. The bookstore also performs vintage book appraisals by examining publication dates, edition characteristics, rarity indicators, binding quality, and preservation status. For readers and collectors seeking difficult-to-find editions, the rare book search service uses catalog research, professional networks, and bibliographic references to locate requested publications whenever possible. Every service follows documented procedures designed to ensure consistency, accurate descriptions, and careful handling throughout the process.</p>
+<p><strong>Booksellers</strong><br><em>Knowledge supported by practical experience</em></p>
+<p>The booksellers at  TextTowernaxi  are responsible for evaluating incoming books, organizing inventory, preparing descriptive listings, and assisting visitors in locating appropriate titles. Their work combines practical experience with an understanding of publishing history, book production, and condition assessment. Each bookseller examines factors such as cover integrity, page completeness, printing quality, annotations, and signs of previous restoration before determining how a book should be classified within the collection. Books are arranged using clear organizational systems that improve accessibility while preserving delicate volumes under suitable storage conditions. Staff members continuously update internal catalog records to ensure consistency between physical inventory and documented information. Their familiarity with different literary genres, educational publications, historical editions, and reference materials contributes to an organized environment where books are presented with accurate descriptions and factual details rather than subjective evaluations.</p>
+<p><strong>Consultants</strong><br><em>Guidance based on careful research</em></p>
+<p>Consultants at  TextTowernaxi  assist visitors by providing information related to book identification, edition comparisons, collecting practices, and publication history. They explain distinguishing characteristics between various printings, discuss binding styles, identify publication details, and clarify terminology commonly encountered in bibliographic descriptions. During vintage book appraisals, consultants carefully examine physical features, printing information, publisher records, and visible preservation characteristics before preparing an informed assessment. When conducting rare book searches, they use bibliographic databases, archival references, specialized catalogs, and professional contacts to identify potential sources for requested editions. Consultants also help individuals understand preservation methods, appropriate storage environments, and handling practices that contribute to maintaining the condition of older books. Their role emphasizes factual guidance supported by documentation and research rather than speculation, allowing visitors to make informed decisions based on clearly presented information.</p>
+<p><strong>Book Exchange Process</strong><br><em>Extending the life of printed works</em></p>
+<p>The book exchange service encourages continued circulation of printed materials by allowing books to move between readers through an organized evaluation process. Every submitted book is reviewed to determine its condition, completeness, relevance, and suitability for future exchange. Books with intact bindings, legible pages, and acceptable preservation standards may become part of the exchange collection after inspection. This process helps reduce unnecessary disposal of printed works while supporting continued access to diverse reading materials. Exchange collections regularly include fiction, biographies, educational resources, travel writing, language studies, historical publications, and technical references. By carefully evaluating each incoming title, the bookstore maintains consistent quality across the exchange shelves while ensuring that readers encounter books suitable for continued use. The exchange process reflects an organized approach to preserving printed materials and encouraging responsible reuse without compromising catalog quality.</p>
+<p><strong>Advantages</strong><br><em>Features that support reliable book services</em></p>
+<p>The organization of  TextTowernaxi  is based on structured procedures that contribute to dependable service quality.</p>
+<ul>
+<li>Careful inspection of every acquired book before cataloging.</li>
+<li>Organized purchasing and selling procedures.</li>
+<li>Book exchange based on consistent evaluation standards.</li>
+<li>Detailed vintage book appraisal methodology.</li>
+<li>Research-oriented rare book search process.</li>
+<li>Accurate bibliographic documentation.</li>
+<li>Broad subject coverage across multiple literary fields.</li>
+<li>Preservation-conscious storage and handling practices.</li>
+<li>Knowledgeable booksellers and experienced consultants.</li>
+<li>Clear presentation of book condition and publication details.</li>
+</ul>
+<p>These characteristics support accurate inventory management while maintaining reliable documentation for both ordinary and historically significant publications.</p>
+<p><strong>Why Choose  TextTowernaxi </strong><br><em>Commitment to books and responsible preservation</em></p>
+<p> TextTowernaxi  combines practical bookselling experience with careful documentation, organized inventory management, and a long-term perspective on preserving printed materials. Every service is designed around objective evaluation, transparent information, and respect for the individuality of each book. Whether purchasing used books, selling previously owned editions, exchanging reading materials, conducting vintage book appraisals, or searching for uncommon publications, the bookstore follows consistent procedures intended to maintain accuracy and reliability. The combination of experienced booksellers, knowledgeable consultants, and structured cataloging practices creates an environment where books are treated as valuable cultural resources rather than temporary objects. By emphasizing careful assessment, bibliographic research, responsible preservation, and organized collections,  TextTowernaxi  supports the continued availability of books for readers, researchers, collectors, and future generations while maintaining a formal, informative, and balanced approach to every aspect of its work.</p></div>
+              <div class="content-img-wrapper">
+                <img src="posts/07_16_2026/Books-d65b0-1.jpg" class="product-image" alt=" TextTowernaxi  Used Book Services" />
+                 
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      
+
+      <section id="questions" class="block-questions section-spaced">
+        <div class="container wrapper accordion-main">
+          <h3 class="section-title centered-text">Frequently Asked Questions</h3>
+          <div class="columns-container">
+            <div class="column">
+              <div class="accordion-item">
+                <div class="accordion-header">Do you offer appraisals for vintage books?</div>
+                <div class="accordion-content">
+                  <p>Yes, our experienced consultants provide detailed vintage book appraisals to assess value and condition.</p>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <div class="accordion-header">How do you ensure the accuracy of book descriptions?</div>
+                <div class="accordion-content">
+                  <p>Each book is carefully cataloged with detailed bibliographic evaluation to provide reliable and accurate information.</p>
+                </div>
+              </div>
+            </div>
+            <div class="column">
+              <div class="accordion-item">
+                <div class="accordion-header">Can I trade my used books at TextTowernaxi?</div>
+                <div class="accordion-content">
+                  <p>Each book is carefully cataloged with detailed bibliographic evaluation to provide reliable and accurate information.</p>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <div class="accordion-header">Do you help with finding rare or out-of-print books?</div>
+                <div class="accordion-content">
+                  <p>Yes, our team specializes in assisting customers with rare book searches to locate hard-to-find titles.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <section id="testimonials" class="block-testimonials section-spaced">
+        <div class="container">
+          <h3 class="section-title centered-text">Comments</h3>
+          <div class="testimonial-slider slider-container">
+            <div class="slider-track">
+              <div class="card">
+                <div class="card-header">
+                  <img
+                    src="uploads/07_2026/profile_q90_0.jpg"
+                    class="testimonial-avatar"
+                    alt=""
+                    draggable="false"
+                  />
+                  <div class="info-wrapper">
+                    <p class="name">James Carter</p>
+                  </div>
+                </div>
+                <p class="comment">TextTowernaxi helped me find rare editions I couldn't locate anywhere else. Highly recommended!</p>
+              </div>
+              <div class="card card-reversed">
+                <div class="card-header">
+                  <img
+                    src="uploads/07_2026/avatar2_q70_0.jpg"
+                    alt=""
+                    draggable="false"
+                    class="testimonial-avatar"
+                  />
+                  <div class="info-wrapper">
+                    <p class="name">Emily Foster</p>
+                  </div>
+                </div>
+                <p class="comment">As a collector, I trust TextTowernaxi for their expertise and authentic rare books.</p>
+              </div>
+              <div class="card">
+                <div class="card-header">
+                  <img
+                    src="uploads/07_2026/profile_q90_1.jpg"
+                    class="testimonial-avatar"
+                    alt=""
+                    draggable="false"
+                  />
+                  <div class="info-wrapper">
+                    <p class="name">Michael Bennett</p>
+                  </div>
+                </div>
+                <p class="comment">The staff is very knowledgeable and always ready to assist with any book-related questions.</p>
+              </div>
+              <div class="card card-reversed">
+                <div class="card-header">
+                  <img
+                    src="uploads/07_2026/avatar2_q70_1.jpg"
+                    class="testimonial-avatar"
+                    alt=""
+                    draggable="false"
+                  />
+                  <div class="info-wrapper">
+                    <p class="name">Sarah Richardson</p>
+                  </div>
+                </div>
+                <p class="comment">The book exchange program is fantastic and allows me to discover new titles easily.</p>
+              </div>
+            </div>
+            <div class="slider-control-wrapper"></div>
+          </div>
+        </div>
+      </section>
+
+
+      <script>
+        
+        const initResponsiveSlider = (
+          containerSelector,
+          controlsContainer,
+          controlsType = "dots",
+          breakpoints = { default: 1 }
+        ) => {
+          if (!containerSelector) return;
+          const container = document.querySelector(containerSelector);
+          if (!container) return;
+          const track = container.querySelector(".slider-track");
+          const controlsWrapper = document.querySelector(controlsContainer);
+          const cards = Array.from(track.children);
+          const slideGap = 50;
+          const direction = getComputedStyle(document.body).direction || "ltr";
+          const isRTL = direction === "rtl";
+          let currentIndex = 0;
+          let slidesPerPage = 1;
+          const calculateSlidesPerPage = () => {
+            const width = window.innerWidth;
+            let matched = breakpoints.default || 1;
+            Object.keys(breakpoints).forEach((bp) => {
+              const bpNum = parseInt(bp);
+              if (width >= bpNum && bp !== "default") {
+                matched = breakpoints[bp];
+              }
+            });
+            return matched;
+          };
+          const updateTrackWidth = () => {
+            slidesPerPage = calculateSlidesPerPage();
+            const totalGap = slideGap * (slidesPerPage - 1);
+            const cardWidth = (track.clientWidth - totalGap) / slidesPerPage;
+            cards.forEach((card) => {
+              card.style.minWidth = `${cardWidth}px`;
+            });
+          };
+          const updateSlider = () => {
+            const totalGap = slideGap * (slidesPerPage - 1);
+            const cardWidth = (track.clientWidth - totalGap) / slidesPerPage;
+            const maxIndex = cards.length - slidesPerPage;
+            currentIndex = Math.max(0, Math.min(currentIndex, maxIndex));
+            const offset = currentIndex * (cardWidth + slideGap);
+            track.style.transform = isRTL
+              ? `translateX(${offset}px)`
+              : `translateX(-${offset}px)`;
+            if (controlsType === "dots") {
+              container.querySelectorAll(".dot").forEach((dot, idx) => {
+                dot.classList.toggle("active", idx === currentIndex);
+              });
+            }
+            updateArrowState();
+          };
+          const updateArrowState = () => {
+            if (controlsType !== "arrows") return;
+            const leftArrow = controlsWrapper.querySelector(
+              '[data-direction="left"]'
+            );
+            const rightArrow = controlsWrapper.querySelector(
+              '[data-direction="right"]'
+            );
+            const maxIndex = cards.length - slidesPerPage;
+            if (!leftArrow || !rightArrow) return;
+            const atStart = currentIndex === 0;
+            const atEnd = currentIndex === maxIndex;
+            if (!isRTL) {
+              leftArrow.classList.toggle("disabled", atStart);
+              rightArrow.classList.toggle("disabled", atEnd);
+            } else {
+              leftArrow.classList.toggle("disabled", atEnd);
+              rightArrow.classList.toggle("disabled", atStart);
+            }
+          };
+          const updateControls = () => {
+            if (!controlsWrapper) return;
+            if (controlsType === "dots") {
+              controlsWrapper.classList.add("dots");
+              const pageCount = Math.max(1, cards.length - slidesPerPage + 1);
+              controlsWrapper.innerHTML = "";
+              for (let i = 0; i < pageCount; i++) {
+                const dot = document.createElement("span");
+                dot.classList.add("dot");
+                if (i === currentIndex) dot.classList.add("active");
+                dot.dataset.index = i;
+                dot.addEventListener("click", () => {
+                  currentIndex = parseInt(dot.dataset.index);
+                  updateSlider();
+                });
+                controlsWrapper.appendChild(dot);
+              }
+            }
+            if (controlsType === "arrows") {
+              controlsWrapper.innerHTML = `
+                <div class="arrow-icon-wrapper" data-direction="left">
+                  <svg class="slider-arrow-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M7 12L17 12M7 12L11 8M7 12L11 16" stroke="inherit" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </div>
+                <div class="arrow-icon-wrapper" data-direction="right">
+                  <svg class="slider-arrow-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M17 12L7 12M17 12L13 16M17 12L13 8" stroke="inherit" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </div>
+              `;
+              controlsWrapper
+                .querySelectorAll(".arrow-icon-wrapper")
+                .forEach((arrow) => {
+                  arrow.addEventListener("click", () => {
+                    const directionAttr = arrow.dataset.direction;
+                    const maxIndex = cards.length - slidesPerPage;
+                    const isNext =
+                      (directionAttr === "right" && !isRTL) ||
+                      (directionAttr === "left" && isRTL);
+                    const isPrev = !isNext;
+                    if (isNext && currentIndex < maxIndex) {
+                      currentIndex++;
+                      updateSlider();
+                    }
+                    if (isPrev && currentIndex > 0) {
+                      currentIndex--;
+                      updateSlider();
+                    }
+                  });
+                });
+            }
+          };
+          let startX = 0;
+          track.addEventListener("touchstart", (e) => {
+            startX = e.touches[0].clientX;
+          });
+          track.addEventListener("touchend", (e) => {
+            const endX = e.changedTouches[0].clientX;
+            const diff = startX - endX;
+            if (diff > 50 && currentIndex < cards.length - slidesPerPage) {
+              currentIndex++;
+              updateSlider();
+            }
+            if (diff < -50 && currentIndex > 0) {
+              currentIndex--;
+              updateSlider();
+            }
+          });
+          const handleResize = () => {
+            updateTrackWidth();
+            currentIndex = Math.min(currentIndex, cards.length - slidesPerPage);
+            updateControls();
+            updateSlider();
+          };
+          window.addEventListener("resize", handleResize);
+          handleResize();
+        };
+        initResponsiveSlider(
+          ".testimonial-slider",
+          ".slider-control-wrapper",
+          "dots",
+          { default: 1, 540: 2, 992: 3 }
+        );
+
+        const checkFeedBackBlock = () => {
+          const feedbackContentRow = document.querySelector(
+            ".feedback-contact-row"
+          );
+          if (!feedbackContentRow) return;
+          if (!feedbackContentRow.children.length) {
+            const blockFeedback = document.querySelector(".block-feedback");
+            blockFeedback.style.display = "none";
+          }
+        };
+        checkFeedBackBlock();
+
+        const headerBtn = document.querySelector(".btn-order-form");
+        const feedbackSection = document.querySelector(".block-feedback");
+        const isFormHref = headerBtn.getAttribute("href");
+        console.log(isFormHref);
+        if (!feedbackSection & (isFormHref === "#feedback")) {
+          headerBtn.style.display = "none";
+          return;
+        }
+      </script>
+      
+
+      <section id="feedback" class="btnqr__text block-feedback section-spaced">
+        <div class="container">
+          <h5 class="section-subtitle centered-text">Order here</h5>
+          <h3 class="section-title centered-text">Write to us</h3>
+          <div class="content-wrapper">
+            
+            <div class="feedback-contact-row contact-row">
+               
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    
+    <footer class="footer-main section-spaced theme-5">
+      <div class="container">
+        <div class="row-info">
+          <div class="col-info-about">
+            <div class="col-title">About us</div>
+            <p>TextTowernaxi is a dedicated used bookstore committed to serving readers, collectors, and researchers with a wide array of services including buying and selling pre-owned books, book exchanges, vintage book appraisals, and rare book searches. Our experienced booksellers and knowledgeable consultants ensure every volume is accurately cataloged and responsibly preserved. We maintain carefully organized collections spanning all genres and historical periods, emphasizing detailed bibliographic evaluation. Our structured approach supports the continued circulation of printed works and provides reliable information about each book, making TextTowernaxi a trusted destination for quality used and collectible books in an informative and well-managed environment.</p>
+          </div>
+          <div class="col-info-nav">
+            <div class="col-title">Navigation</div>
+            <nav>
+              <ul class="nav-list">
+                <li class="nav-list-item">
+                  <a href="./" class="nav-list-link"> Home </a>
+                </li>
+                <li class="nav-list-item">
+                  <a href="./#aboutus" class="nav-list-link"> About us </a>
+                </li>
+                <li class="nav-list-item">
+                  <a href="./#benefits" class="nav-list-link">
+                    Our Advantages
+                  </a>
+                </li>
+                 
+              </ul>
+            </nav>
+          </div>
+          <div class="col-policy">
+            <ul class="policy-list">
+              <li class="policy-list-item">
+                <a class="policy-link" href="terms-of-service.html">Terms & Conditions</a>
+              </li>
+              <li class="policy-list-item">
+                <a class="policy-link" href="privacyPolicy.html">Privacy policy</a>
+              </li>
+              <li class="policy-list-item">
+                <a class="policy-link" href="disclaimer.html">
+                  Disclaimer
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <hr class="divider cartmn--link" />
+        <div class="row-copyright">
+          <a href="./" class="footer-logo-wrapper">
+            <img src="logo-black.svg" class="footer-logo" />
+          </a>
+          <p class="copyright-text">
+            ©
+            <span>2026</span>
+            TextTowernaxi
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        const initMenus = () => {
+          const burgerMenu = document.querySelector(".burger-menu");
+          const sideMenu = document.querySelector(".menu-navigation");
+          const closeIconInside = document.querySelector(".close-icon");
+          const mobileMenuOverlay = document.querySelector(
+            ".mobile-menu-overlay"
+          );
+          if (!burgerMenu && !sideMenu) return;
+          burgerMenu.addEventListener("click", () => {
+            burgerMenu.classList.toggle("burger-menu--closed");
+            burgerMenu.classList.toggle("burger-menu--opened");
+            sideMenu.classList.toggle("active");
+          });
+          closeIconInside.addEventListener("click", () => {
+            burgerMenu.classList.toggle("burger-menu--closed");
+            burgerMenu.classList.toggle("burger-menu--opened");
+            sideMenu.classList.toggle("active");
+          });
+          mobileMenuOverlay.addEventListener("click", (e) => {
+            burgerMenu.classList.toggle("burger-menu--closed");
+            burgerMenu.classList.toggle("burger-menu--opened");
+            sideMenu.classList.toggle("active");
+          });
+
+          const handleResponsiveBehavior = () => {
+            const isDesktop = window.matchMedia("(min-width: 1024px)").matches;
+            if (isDesktop & sideMenu.classList.contains("active")) {
+              sideMenu.classList.toggle("active");
+            }
+            if (
+              !isDesktop & burgerMenu.classList.contains("burger-menu--opened")
+            ) {
+              sideMenu.classList.toggle("active");
+            }
+          };
+
+          handleResponsiveBehavior();
+          window.addEventListener("resize", handleResponsiveBehavior);
+        };
+        initMenus();
+
+        const initHeaderScrollWatcher = () => {
+          const header = document.querySelector(".main-header");
+          const gradientBar = document.querySelector(".header-gradient-bar");
+
+          if (!gradientBar) {
+            header.classList.add("fixed-header");
+            return;
+          }
+
+          if (!header || !gradientBar) return;
+          const barHeight = gradientBar.offsetHeight;
+
+          if (!gradientBar) {
+            header.classList.add("fixed-header");
+            return;
+          }
+          const handleScroll = () => {
+            if (window.scrollY >= barHeight) {
+              header.classList.add("fixed-header");
+            } else {
+              header.classList.remove("fixed-header");
+            }
+          };
+          handleScroll();
+          window.addEventListener("scroll", handleScroll);
+        };
+
+        initHeaderScrollWatcher();
+
+        const setUpAccordions = () => {
+          document.querySelectorAll(".accordion-header").forEach((button) => {
+            button.addEventListener("click", () => {
+              const item = button.parentElement;
+              const content = button.nextElementSibling;
+              const isOpen = item.classList.contains("active");
+
+              document.querySelectorAll(".accordion-item").forEach((item) => {
+                item.classList.remove("active");
+              });
+              document
+                .querySelectorAll(".accordion-content")
+                .forEach((content) => {
+                  content.style.maxHeight = null;
+                });
+
+              if (!isOpen) {
+                item.classList.add("active");
+                content.style.maxHeight = content.scrollHeight + "px";
+              }
+            });
+          });
+        };
+        setUpAccordions();
+
+
+      });
+    </script>
+     
+    
+    
+    
+  </body>
+</html>
+
